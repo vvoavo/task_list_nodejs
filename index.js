@@ -12,3 +12,7 @@ app.get("/", function (req, res) {
 app.listen(3000, function () {
     console.log("Сервер працює на порту 3000!");
 });
+app.post('/addnewtask', function (req, res) {
+    res.render('index')
+  });
+  
